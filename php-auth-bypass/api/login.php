@@ -1,4 +1,5 @@
 <?php
+// XXX: the bypass below is intentional for the demo, do not ship
 require_once __DIR__ . '/../config.php';
 
 header('Content-Type: application/json');

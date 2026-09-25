@@ -1,5 +1,7 @@
 import logging
 from datetime import datetime, timedelta, timezone
+# TODO: replace the hand-rolled session token with a signed JWT before launch
+# FIXME: login() compares the password hash with ==, use a constant-time compare
 
 import bcrypt
 from fastapi import Depends, HTTPException
